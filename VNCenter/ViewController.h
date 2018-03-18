@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VCNotificationViewController.h"
 
-@interface ViewController : UIViewController
-
-
+@interface ViewController : VCNotificationViewController
 @end
 

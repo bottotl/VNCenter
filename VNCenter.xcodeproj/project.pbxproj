@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11B4B36299270B476E09F699 /* libPods-VNCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FFDCF7DF02E199348AC2DA /* libPods-VNCenter.a */; };
 		30C6FF6A205E40E300DADAEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C6FF69205E40E300DADAEE /* AppDelegate.m */; };
 		30C6FF6D205E40E300DADAEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C6FF6C205E40E300DADAEE /* ViewController.m */; };
 		30C6FF70205E40E300DADAEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C6FF6E205E40E300DADAEE /* Main.storyboard */; };
 		30C6FF72205E40E300DADAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C6FF71205E40E300DADAEE /* Assets.xcassets */; };
 		30C6FF75205E40E300DADAEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C6FF73205E40E300DADAEE /* LaunchScreen.storyboard */; };
 		30C6FF78205E40E300DADAEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C6FF77205E40E300DADAEE /* main.m */; };
+		30C6FF85205E423C00DADAEE /* JFTUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C6FF84205E423C00DADAEE /* JFTUserInfoView.m */; };
+		30C6FF88205E424F00DADAEE /* JFTAvatarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C6FF87205E424F00DADAEE /* JFTAvatarButton.m */; };
+		30C6FF95205E4E0E00DADAEE /* JFTAvatarJumpModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C6FF94205E4E0E00DADAEE /* JFTAvatarJumpModule.m */; };
+		30C6FFA0205E57A000DADAEE /* VCNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C6FF9D205E57A000DADAEE /* VCNotificationViewController.m */; };
+		30C6FFA1205E57A000DADAEE /* UIView+VCNNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C6FF9F205E57A000DADAEE /* UIView+VCNNotification.m */; };
+		30C6FFA4205E5D4300DADAEE /* JFTUserInfoView+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C6FFA3205E5D4300DADAEE /* JFTUserInfoView+Config.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,22 @@
 		30C6FF74205E40E300DADAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30C6FF76205E40E300DADAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30C6FF77205E40E300DADAEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30C6FF83205E423C00DADAEE /* JFTUserInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTUserInfoView.h; sourceTree = "<group>"; };
+		30C6FF84205E423C00DADAEE /* JFTUserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTUserInfoView.m; sourceTree = "<group>"; };
+		30C6FF86205E424F00DADAEE /* JFTAvatarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTAvatarButton.h; sourceTree = "<group>"; };
+		30C6FF87205E424F00DADAEE /* JFTAvatarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTAvatarButton.m; sourceTree = "<group>"; };
+		30C6FF93205E4E0E00DADAEE /* JFTAvatarJumpModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTAvatarJumpModule.h; sourceTree = "<group>"; };
+		30C6FF94205E4E0E00DADAEE /* JFTAvatarJumpModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTAvatarJumpModule.m; sourceTree = "<group>"; };
+		30C6FF9B205E57A000DADAEE /* VCNViewModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCNViewModuleProtocol.h; sourceTree = "<group>"; };
+		30C6FF9C205E57A000DADAEE /* UIView+VCNNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VCNNotification.h"; sourceTree = "<group>"; };
+		30C6FF9D205E57A000DADAEE /* VCNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCNotificationViewController.m; sourceTree = "<group>"; };
+		30C6FF9E205E57A000DADAEE /* VCNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCNotificationViewController.h; sourceTree = "<group>"; };
+		30C6FF9F205E57A000DADAEE /* UIView+VCNNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VCNNotification.m"; sourceTree = "<group>"; };
+		30C6FFA2205E5D4300DADAEE /* JFTUserInfoView+Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JFTUserInfoView+Config.h"; sourceTree = "<group>"; };
+		30C6FFA3205E5D4300DADAEE /* JFTUserInfoView+Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JFTUserInfoView+Config.m"; sourceTree = "<group>"; };
+		4B6849B013CF3480ABA4A69B /* Pods-VNCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNCenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-VNCenter/Pods-VNCenter.release.xcconfig"; sourceTree = "<group>"; };
+		67FFDCF7DF02E199348AC2DA /* libPods-VNCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VNCenter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12EF91F128F68D7E3BFBA87 /* Pods-VNCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNCenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VNCenter/Pods-VNCenter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +56,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B4B36299270B476E09F699 /* libPods-VNCenter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03CF5D6B30951C152D50E8B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67FFDCF7DF02E199348AC2DA /* libPods-VNCenter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		30C6FF5C205E40E300DADAEE = {
 			isa = PBXGroup;
 			children = (
 				30C6FF67205E40E300DADAEE /* VNCenter */,
 				30C6FF66205E40E300DADAEE /* Products */,
+				6E8E7AE4E9CE155B58B806B2 /* Pods */,
+				03CF5D6B30951C152D50E8B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +94,8 @@
 			children = (
 				30C6FF68205E40E300DADAEE /* AppDelegate.h */,
 				30C6FF69205E40E300DADAEE /* AppDelegate.m */,
+				30C6FF9A205E57A000DADAEE /* Core */,
+				30C6FF81205E423C00DADAEE /* View */,
 				30C6FF6B205E40E300DADAEE /* ViewController.h */,
 				30C6FF6C205E40E300DADAEE /* ViewController.m */,
 				30C6FF6E205E40E300DADAEE /* Main.storyboard */,
@@ -71,6 +107,50 @@
 			path = VNCenter;
 			sourceTree = "<group>";
 		};
+		30C6FF81205E423C00DADAEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30C6FF82205E423C00DADAEE /* UserInfo */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30C6FF82205E423C00DADAEE /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				30C6FF83205E423C00DADAEE /* JFTUserInfoView.h */,
+				30C6FF84205E423C00DADAEE /* JFTUserInfoView.m */,
+				30C6FF86205E424F00DADAEE /* JFTAvatarButton.h */,
+				30C6FF87205E424F00DADAEE /* JFTAvatarButton.m */,
+				30C6FF93205E4E0E00DADAEE /* JFTAvatarJumpModule.h */,
+				30C6FF94205E4E0E00DADAEE /* JFTAvatarJumpModule.m */,
+				30C6FFA2205E5D4300DADAEE /* JFTUserInfoView+Config.h */,
+				30C6FFA3205E5D4300DADAEE /* JFTUserInfoView+Config.m */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		30C6FF9A205E57A000DADAEE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				30C6FF9B205E57A000DADAEE /* VCNViewModuleProtocol.h */,
+				30C6FF9C205E57A000DADAEE /* UIView+VCNNotification.h */,
+				30C6FF9D205E57A000DADAEE /* VCNotificationViewController.m */,
+				30C6FF9E205E57A000DADAEE /* VCNotificationViewController.h */,
+				30C6FF9F205E57A000DADAEE /* UIView+VCNNotification.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6E8E7AE4E9CE155B58B806B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B12EF91F128F68D7E3BFBA87 /* Pods-VNCenter.debug.xcconfig */,
+				4B6849B013CF3480ABA4A69B /* Pods-VNCenter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30C6FF7B205E40E300DADAEE /* Build configuration list for PBXNativeTarget "VNCenter" */;
 			buildPhases = (
+				557E4596C4F3D12DBB1D66DF /* [CP] Check Pods Manifest.lock */,
 				30C6FF61205E40E300DADAEE /* Sources */,
 				30C6FF62205E40E300DADAEE /* Frameworks */,
 				30C6FF63205E40E300DADAEE /* Resources */,
+				3D962520A8C0E5847FBEEC56 /* [CP] Embed Pods Frameworks */,
+				E6A2172874A9816D497DE5E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,14 +220,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D962520A8C0E5847FBEEC56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VNCenter/Pods-VNCenter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		557E4596C4F3D12DBB1D66DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VNCenter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A2172874A9816D497DE5E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VNCenter/Pods-VNCenter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30C6FF61205E40E300DADAEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				30C6FF6D205E40E300DADAEE /* ViewController.m in Sources */,
+				30C6FF88205E424F00DADAEE /* JFTAvatarButton.m in Sources */,
+				30C6FFA4205E5D4300DADAEE /* JFTUserInfoView+Config.m in Sources */,
+				30C6FF95205E4E0E00DADAEE /* JFTAvatarJumpModule.m in Sources */,
 				30C6FF78205E40E300DADAEE /* main.m in Sources */,
 				30C6FF6A205E40E300DADAEE /* AppDelegate.m in Sources */,
+				30C6FFA1205E57A000DADAEE /* UIView+VCNNotification.m in Sources */,
+				30C6FFA0205E57A000DADAEE /* VCNotificationViewController.m in Sources */,
+				30C6FF85205E423C00DADAEE /* JFTUserInfoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +416,7 @@
 		};
 		30C6FF7C205E40E300DADAEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12EF91F128F68D7E3BFBA87 /* Pods-VNCenter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +431,7 @@
 		};
 		30C6FF7D205E40E300DADAEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6849B013CF3480ABA4A69B /* Pods-VNCenter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
